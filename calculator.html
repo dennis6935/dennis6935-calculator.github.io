@@ -1,0 +1,86 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css"/>
+        <script src="../JS/calc.js" language="javascript" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <div id="container">
+            
+            <div id="header">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="calculator.html">Calculator</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+            
+            <br/>
+            <br/>
+
+            <div id="content">
+                <div id="nav">
+                    <h2>Terms</h2>
+                    <ul>
+                        <li>Average</li>
+                        <li>Median</li>
+                        <li>Truncaged Avg.</li>
+                    </ul>
+                </div>
+                
+                <div id="main">
+                    <table>
+                        <caption>Statistics Calculator</caption>
+                        <tr>
+                            <td>Average:</td>
+                            <td>Enter numbers separated by space:</td>
+                            <td>
+                                <input id="data" value="0"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="compute()" id="btn">Compute AVG</button>
+                            </td>
+                            <td>
+                                <input id="result"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="computeMedian()" id="btn">Compute Median</button>
+                            </td>
+                            <td>
+                                <input id="medianResult"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="computeTavg()" id="btn">Compute T. Avg</button>
+                            </td>
+                            <td>
+                                <input id="truncatedResult"/>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <br/>
+                    
+                    <dt>Average:</dt>
+                    <dd>In colloquial language, an average is the sum of a list of numbers divided by the number of numbers in the list.</dd>
+                    <dt>Median:</dt>
+                    <dd>The median is a simple measure of central tendency. To find the median, we arrange the observations in order from smallest to largest value. If there is an odd number of observations, the median is the middle value. If there is an even number of observations, the median is the average of the two middle values.</dd>
+                    <dt>Truncated Avg:</dt>
+                    <dd>It involves the calculation of the mean after discarding given parts of a probability distribution or sample at the high and low end, and typically discarding an equal amount of both</dd>
+                </div>
+            </div>
+            
+            <div id="footer">Dennis O. Arroyo Rivera</div>
+            
+        </div>
+    </body>
+    
+</html>

@@ -1,0 +1,110 @@
+body {
+    background-color:#eee;
+    font-family: Times New Roman;
+}
+
+#container {
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#header {
+    padding: 10px;
+}
+
+
+#header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header ul li {
+    display: inline;
+    float: left;
+    border-right: 1px solid #bbb;
+    margin: 0;
+}
+
+#header ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: grey;
+}
+
+#header ul li a:hover {
+    background-color: #111;
+}
+
+#nav {
+    float: left;
+}
+
+
+#main {
+    float: 
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav {
+    width: 180px;
+    float: left;
+}
+
+#main {
+    width: 600px;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    text-align: right;
+    background-color: palegreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main table {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#main table td {
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+}
+
+#main input {
+    width: 100%;
+}
+
+img {
+    height: 500px;
+    width: 550px
+}
+
+#container p.paragraph {
+    text-align: center;
+    font-size: 90pt;
+    
+}
+
+#btn {
+    width: 100%;
+    color: white;
+    background-color: grey;
+}
+
+#btn:hover {
+    background-color: #bbb;
+}
