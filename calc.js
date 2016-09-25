@@ -10,7 +10,7 @@ function compute() {
     
     var avg = sum/s.length;
     
-    document.getElementById("result").value = "Average = " + avg.toFixed(2);
+    document.getElementById("result").innerHTML = "Average = " + avg.toFixed(2);
 }
 
 function computeMedian() {
@@ -29,7 +29,7 @@ function computeMedian() {
         median = (parseInt(s[number1]) + parseInt(s[number2]))/2;
     }
     
-    document.getElementById("medianResult").value = "Median = " + median;
+    document.getElementById("medianResult").innerHTML = "Median = " + median;
 }
 
 function computeTavg() {
@@ -47,5 +47,5 @@ function computeTavg() {
     
     truncatedAvg = sum/(s.length-2);
     
-    document.getElementById("truncatedResult").value = "Truncated Average = " + truncatedAvg;
+    document.getElementById("truncatedResult").innerHTML = "Truncated Average = " + truncatedAvg.toFixed(2);
 }
